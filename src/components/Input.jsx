@@ -24,6 +24,7 @@ const Input = ({ handleText , handleSearch }) => {
         "Ass", 
         "Traditional", 
         "Bikini", 
+        "Blouse",
         "Saree",
         "Face closeup", 
         "Nude"
