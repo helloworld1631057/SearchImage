@@ -14,7 +14,7 @@ const Input = ({ handleText , handleSearch }) => {
         "Ileana",
         "Shriya saran",
         "Anasuya Bharadwaj",
-        "Apoorva"
+        "Apoorva aunty"
     ];
     const types = [
         "", 
@@ -35,7 +35,7 @@ const Input = ({ handleText , handleSearch }) => {
     ];
     const [Act, setAct] = useState('');
     const [type,setType] = useState('');
-    const [safe, setSafe] = useState('');
+    const [safe, setSafe] = useState('Moderate');
     
 
     const handleActressChange = (e) => {
@@ -48,7 +48,7 @@ const Input = ({ handleText , handleSearch }) => {
     
     const handleSearchChange = (e) => {
         // const searchSafeString = ( e.target.value === 'off' ? 'Off' : '' )/
-        setSafe(e.target.value === 'off' ? 'Off' : ''); 
+        setSafe(e.target.value === 'off' ? 'Off' : 'Moderate'); 
     }
     const handleSubmit = () => {
         const searchString = safe;

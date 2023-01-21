@@ -86,8 +86,8 @@ body, .App{
   .modal img{
     width: fit-content;
     max-width: 100%;
-    height: auto;
-    max-height: 100%;
+    height: 100vh;
+    max-height: 100vh;
     display: block;
     line-height: 0;
     box-sizing: border-box;
@@ -145,13 +145,14 @@ body, .App{
       display: grid;
       grid-template-columns: 1fr;
       justify-content: center;
-      border: 2px solid black;
+      /* border: 2px solid black; */
 
       align-items: center;
     }
   
     .image-container{
-      /* margin: 10px; */
+      margin: 0px;
+      margin-bottom: 10px;
       height: 500px;
       width: 100%;
       border-radius: 10px;

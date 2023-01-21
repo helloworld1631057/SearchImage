@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TransformComponent, TransformWrapper } from '@pronestor/react-zoom-pan-pinch'
+import { TransformComponent, TransformWrapper } from 'react-zoom-pan-pinch'
 
 const Displaycontainer = ({ dataset }) => {
     const [modal, setModal] = useState(false);

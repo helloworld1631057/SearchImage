@@ -10,7 +10,10 @@ function App() {
 
   const [text, setText] = useState('');
   const [dataset, setDataset] = useState([]);
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState('Strict');
+
+
+
 
   const options = {
     method: 'GET',
@@ -37,6 +40,11 @@ function App() {
 
   const handleSearch = (searchString) => {
     setSearch(searchString)
+    // if(searchString=== 'Off'){
+    //   setMk('es-US')
+    // }else{
+    //   setMk('es-IN');
+    // }
   }
 
   return (
