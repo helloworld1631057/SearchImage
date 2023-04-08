@@ -47,7 +47,7 @@ const Displaycontainer = ({ dataset }) => {
             {
                 dataset.map((data) => (
                     
-                    <img src={data.thumbnailUrl} key={data.imageId} className="image-container" onClick={() => getImg(data.thumbnailUrl)} />
+                    <img src={data.contentUrl} key={data.imageId} className="image-container" onClick={() => getImg(data.thumbnailUrl)} />
                     // <div className="image-container">1</div>
                 ))
             }
